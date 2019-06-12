@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather API</title>
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <script src="subo-2.0.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/weather-icons.min.css">
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+<script src="jquery-1.11.1.min.js"></script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+<body>
+  <div class="skydrop">
+    <main class="bg" id="bg-main">
+      <div class="mini"><i class="fa fa-th-large mini-icon" id="mini" aria-hidden="true"></i></div>
+      <div class="container" id="main">
+        <div class="item city" id="city"></div>
+        <div class="item temp" id="temp"></div>
+        <div class="item tempIcon" id="tempIcon"></div>
+        <div class="item condition" id="condition"></div>
+        <div class="item windCondition" id="windCondition"></div>
+      </div>
+      <div class="container" id="alt">
+        <div class="item city" id="cityALT"> </div>
+        <div class="item temp" id="tempALT"> </div>
+        <div class="item tempIcon" id="tempIconALT"> </div>
+        <div class="item condition" id="conditionALT"> </div>
+        <div class="item windCondition" id="windConditionALT"> </div>
+      </div>
+    </main>
+    <div id="white-bg">
+        <div class="query-container" id="query">
+            <div class="item query-label"><i class="fa fa-search" aria-hidden="true"></i> Add a city or address:</div>
+            <div class="item searchField">
+              <input type="text" id="search" value="Enter City or Address"></div>
+            <div class="item buttonField">
+              <button type="button" class="button-go">Go</button></div>
+            <div class="item">
+              <object class="load" id="load" type="image/svg+xml" width="30" height="30" data="tail-spin.svg">
+              </object>
+            </div>
+        </div>
+    </div>
+
+  <footer>
+    <div class="border"></div>
+    <div id="grey-bg">
+      <div class="text-container">
+        <div class="item text-label" style="text-align: end;"><p class="link">Made by :<u>BSE17BFT</u></p></div>
+        <div class="item text-label" style="text-align: end;"><p class="link">Antibiotics</p></a></div>
+       
+      </div>
+     
+    </div>
+  </footer>
+</div>
+  <div id="preload-01"></div>
+  <div id="preload-05"></div>
+  <div id="preload-03"></div>
+  <div id="preload-04"></div>
+  <div id="preload-09"></div>
+  <div id="preload-06"></div>
+  <div id="preload-07"></div>
+  <div id="preload-08"></div>
+</body>
+
+</html>
